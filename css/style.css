@@ -1,0 +1,51 @@
+.main-color {
+    color: #ea8101 !important;
+}
+.main-border {
+    border: 0.15rem solid #ea8101 !important;
+}
+
+
+.container-85 {
+    width: 85%;
+}
+
+.hover-item {
+    transition: color 0.3s ease !important;
+}
+
+.hover-item:hover {
+    color: #ea8101 !important;
+}
+
+.dropdown-item:focus {
+    color: #ea8101 !important;
+    background-color: rgba(234, 129, 1, 0.1) !important;
+}
+
+main {
+    margin-top: 6rem;
+}
+
+.text-darkorange {
+    color: #ea8101 !important;
+}
+
+.text-lightorange {
+    color: #ffbd38 !important;
+}
+
+.border-right {
+    border-right: 0.3rem solid #ea8101;
+}
+
+[aria-selected="true"] {
+    background-color: #ea8101 !important;
+    color: white !important;
+}
+
+@media (min-width: 992px) {
+    .border-lg-0 {
+        border: 0 !important;
+    }
+}
