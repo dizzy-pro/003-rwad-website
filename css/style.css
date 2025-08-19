@@ -70,10 +70,13 @@ main {
     transition: opacity .2s ease-out !important;
 }
 
-.btn-left {
-    left: 7rem;
-}
 
-.btn-right {
-    right: 7rem;
+@media (min-width: 992px) {
+    .btn-left {
+            left: 7rem;
+        }
+    
+    .btn-right {
+            right: 7rem;
+        }
 }
