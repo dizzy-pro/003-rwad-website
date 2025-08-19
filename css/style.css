@@ -71,12 +71,22 @@ main {
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 573px) {
     .btn-left {
-            left: 7rem;
-        }
-    
+        left: 7rem;
+    }
+
     .btn-right {
-            right: 7rem;
-        }
+        right: 7rem;
+    }
+}
+
+@media (max-width: 572px) {
+    .btn-left {
+        left: -2.5rem;
+    }
+
+    .btn-right {
+        right: -2.5rem;
+    }
 }
