@@ -1,10 +1,18 @@
 .main-color {
     color: #ea8101 !important;
 }
+
 .main-border {
     border: 0.15rem solid #ea8101 !important;
 }
 
+.bg-main {
+    background-color: #F3E9DC !important;
+}
+
+.box-bg {
+    background-color: #f5d0a0 !important;
+}
 
 .container-85 {
     width: 85%;
@@ -24,7 +32,7 @@
 }
 
 main {
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .text-darkorange {
@@ -48,4 +56,24 @@ main {
     .border-lg-0 {
         border: 0 !important;
     }
+}
+
+.carousel-down {
+    bottom: -3rem;
+}
+
+.carousel-color {
+    background-color: #ea8101 !important;
+}
+
+.tab-pane.fade {
+    transition: opacity .2s ease-out !important;
+}
+
+.btn-left {
+    left: 7rem;
+}
+
+.btn-right {
+    right: 7rem;
 }
