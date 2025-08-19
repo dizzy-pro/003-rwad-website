@@ -70,22 +70,62 @@ main {
     transition: opacity .2s ease-out !important;
 }
 
-@media (max-width: 992px) {
+.btn-left {
+    width: 5%;
+    left: 7rem;
+}
+
+.btn-right {
+    width: 5%;
+    right: 7rem;
+}
+
+@media (max-width: 1399px) {
     .btn-left {
-        left: -4rem;
+        left: 0rem;
     }
 
     .btn-right {
-        right: -4rem;
+        right: 0rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .btn-left {
+        left: -3.94rem;
+    }
+
+    .btn-right {
+        right: -3.94rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn-left {
+        left: -3.5rem;
+    }
+
+    .btn-right {
+        right: -3.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-left {
+        left: -3rem;
+    }
+
+    .btn-right {
+        right: -3rem;
     }
 }
 
 @media (max-width: 575px) {
     .btn-left {
-        left: -2.5rem;
+        left: -2.1rem;
     }
 
     .btn-right {
-        right: -2.5rem;
+        right: -2.1rem;
     }
 }
