@@ -14,9 +14,9 @@
     background-color: #f5d0a0 !important;
 }
 
-.container-85 {
+/* .container-85 {
     width: 85%;
-}
+} */
 
 .hover-item {
     transition: color 0.3s ease !important;
@@ -58,9 +58,9 @@ main {
     }
 }
 
-.carousel-down {
+/* .carousel-down {
     bottom: -3rem;
-}
+} */
 
 .carousel-color {
     background-color: #ea8101 !important;
@@ -68,64 +68,4 @@ main {
 
 .tab-pane.fade {
     transition: opacity .2s ease-out !important;
-}
-
-.btn-left {
-    width: 5%;
-    left: 7rem;
-}
-
-.btn-right {
-    width: 5%;
-    right: 7rem;
-}
-
-@media (max-width: 1399px) {
-    .btn-left {
-        left: 0rem;
-    }
-
-    .btn-right {
-        right: 0rem;
-    }
-}
-
-@media (max-width: 1199px) {
-    .btn-left {
-        left: -3.94rem;
-    }
-
-    .btn-right {
-        right: -3.94rem;
-    }
-}
-
-@media (max-width: 991px) {
-    .btn-left {
-        left: -3.5rem;
-    }
-
-    .btn-right {
-        right: -3.5rem;
-    }
-}
-
-@media (max-width: 767px) {
-    .btn-left {
-        left: -3rem;
-    }
-
-    .btn-right {
-        right: -3rem;
-    }
-}
-
-@media (max-width: 575px) {
-    .btn-left {
-        left: -2.1rem;
-    }
-
-    .btn-right {
-        right: -2.1rem;
-    }
 }
