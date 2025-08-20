@@ -14,9 +14,9 @@
     background-color: #f5d0a0 !important;
 }
 
-/* .container-85 {
+.container-85 {
     width: 85%;
-} */
+}
 
 .hover-item {
     transition: color 0.3s ease !important;
