@@ -18,6 +18,10 @@
     width: 85%;
 }
 
+.bg-btn {
+    background-color: #F3E9DC !important;
+}
+
 .hover-item {
     transition: color 0.3s ease !important;
 }
